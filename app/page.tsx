@@ -1,7 +1,12 @@
-import Image from "next/image";
+import { Container, Title } from "@/components/shared";
+
 
 export default function Home() {
   return (
-   <h1>gti</h1>
+   <>
+   <Container>
+    <Title text="Все пиццы" size="lg" className="font-bold"/>  
+   </Container>
+   </>
   );
 }
