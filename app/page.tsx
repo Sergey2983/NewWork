@@ -1,5 +1,5 @@
-import { Container, Title } from "@/components/shared";
-
+import { Container, Title, } from "@/components/shared";
+import { Categories } from "@/components/shared";
 
 export default function Home() {
   return (
