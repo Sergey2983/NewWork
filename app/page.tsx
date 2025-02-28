@@ -1,5 +1,5 @@
-import { Container,  Title, } from "@/components/shared";
-import { TopBar } from "@/components/shared/top-bar";
+import { Container,  Filtres,  Title, TopBar, } from "@/components/shared";
+
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
    <Container className='flex items-center justify-between py-8 w-lg'>
     {/* Левая часть */}
     <div className='flex items-center gap-4 w-24'>
-      
+      <Filtres/>
     
     </div>
     {/* правая часть */}
